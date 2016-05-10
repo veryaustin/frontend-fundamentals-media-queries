@@ -4,4 +4,4 @@ Companion source code for [Front-end Fundamentals - How To Use Media Queries For
 
 Join me as we explore the basics of media queries & responsive design.
 
-[Demo Site](http://veryaustin.com/demo-sites/front-end-fundamentals/01-media-queries/)
+[Demo Site](http://veryaustin.com/demo-sites/front-end-fundamentals/media-queries/)
