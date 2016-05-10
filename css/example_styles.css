@@ -1,0 +1,75 @@
+/* Global Styles + Mobile Device Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 400;
+}
+
+.banner {
+  color: #FFFFFF;
+  background-color: #1b62b2;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+}
+
+.content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) {
+  .banner {
+    background-color: red;
+  }
+  .banner h1 {
+    font-size: 4em;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  .banner {
+    background-color: green;
+  }
+  .banner h1 {
+    font-size: 6em;
+  }
+}
+
+@media print {
+  .banner {
+    display: none;
+  }
+}
+
+
+/* Examples Uses */
+/*
+
+@media (min-width: 100px) {}     // Executes styles when the viewport is 100px wide or more.
+
+@media (max-width: 500px) {}     // Executes styles when the viewport is 500px wide or less.
+
+@media (min-width: 100px) and (max-width: 500px) {}     // Executes styles when the viewport is greater than 100px and less than 500px
+
+@media (orientation: landscape) {}     // Executes styles when the device (if fitted with an accelerometer) is in landscape orientation
+
+@media (orientation: portrait) {}     // Executes styles when the device (if fitted with an accelerometer) is in portrait orientation
+
+@media (min-width: 300px), (orientation: portrait) {}     // Executes styles when the viewport is greater than 300px wide or the device (if fitted with an accelerometer) is in landscape
+
+@media print {}      // Executes styles when the device type is a printer
+
+@media screen {}      // Executes styles when the device type has a screen
+
+@media screen and (min-width: 768px) {}     // Executes styles when the device is a screen and the viewport is 768px or greater
+
+*/
